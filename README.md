@@ -238,7 +238,7 @@ memcached.incr('foo', 10, function (err) { /* stuff */ });
 **memcached.decr** Decrement a given key.
 
 * `key`: **String** the name of the key
-* `amount`: **Number** The increment
+* `amount`: **Number** The decrement
 * `callback`: **Function** the callback
 
 ```js
